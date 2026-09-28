@@ -1,0 +1,94 @@
+@charset"UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(218, 215, 215);
+    min-height: 100vh;
+}
+
+header{
+    padding: 20px;
+    background-color: black;
+   
+}
+
+header > h1{
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+header > p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-variant: small-caps;
+    
+}
+
+header  a{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+header a:hover{
+    color: black;
+    background-color: rgba(209, 207, 207, 0.466);
+    padding: 5px;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: white;
+}
+
+section.imagem{
+    background-color:rgb(122, 121, 121);
+    color: white;
+
+}
+
+section.imagem > p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+footer{
+    padding: 13px;
+    background-color: black;
+   
+}
+
+footer > h1{
+    color: white;
+    text-align: center;   
+}
+
+footer > p{
+    color: white;
+    text-align: center;       
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;    
+}
+
+footer a:hover{
+    color: black;
+    background-color: rgba(209, 207, 207, 0.466);
+    padding: 3px;
+}
